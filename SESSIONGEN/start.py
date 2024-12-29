@@ -11,21 +11,19 @@ def command_filter(cmd: str):
 async def start(bot: Client, msg: Message):
     me = (await bot.get_me()).mention  # Changed variable name to avoid shadowing built-in function name 'me'
     await msg.reply_text(
-        text=f"""ʜᴇʏ {msg.from_user.mention},
+        text=f"""Hallo {msg.from_user.mention} 👋,
 
-ᴛʜɪs ɪs {me},
-ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴀʟʟ ᴛʏᴘᴇ ᴏғ sᴇssɪᴏɴs..
-ᴄʟɪᴄᴋ ᴏɴ ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ!
-
-ᴍᴀᴅᴇ ʙʏ: [ᴊᴀʀᴠɪs](https://t.me/JARVIS_V2) !""",
+Saya adalah {me} 
+Bot ini dapat membuat semua type Session.
+Coba bot ini sekarang!!!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="𖤍 ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 𖤍", callback_data="generate")
+                    InlineKeyboardButton(text="Generate Session", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("ꨄ︎ sᴜᴘᴘᴏʀᴛ ꨄ︎", url="https://t.me/Dora_Hub"),
-                    InlineKeyboardButton("ఌ︎ ᴄʜᴀɴɴᴇʟ ఌ︎", url="https://t.me/JARVIS_V_SUPPORT")
+                    InlineKeyboardButton("Support", url="https://t.me/zeebsupport"),
+                    InlineKeyboardButton("Channel", url="https://t.me/ruangzeeb")
                 ]
             ]
         ),
