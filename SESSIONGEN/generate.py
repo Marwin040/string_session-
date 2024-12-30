@@ -39,7 +39,7 @@ import config
 ask_ques = "**𝒮𝑒𝓁𝑒𝒸𝓉 𝓉𝒽𝑒 𝑜𝓃𝑒 𝓎𝑜𝓊 𝓌𝒶𝓃𝓉 𝓉𝑜 𝒸𝓇𝑒𝒶𝓉𝑒 𝒶 𝓈𝑒𝓈𝓈𝒾𝑜𝓃 𝒻𝑜𝓇.**"
 buttons_ques = [
     [
-        InlineKeyboardButton("𝓅𝓎𝓇𝑜𝑔𝓇𝒶𝓂 📚", callback_data="pyrogram"),
+        InlineKeyboardButton("𝓅𝓎𝓇𝑜𝑔𝓇𝒶𝓂𝒱2 📚", callback_data="pyrogram"),
         InlineKeyboardButton("𝓉𝑒𝓁𝑒𝓉𝒽𝑜𝓃 💻", callback_data="telethon"),
     ],
     [
