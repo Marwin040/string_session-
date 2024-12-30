@@ -16,17 +16,17 @@ async def start(bot: Client, msg: Message):
         text=f"""ʜᴀʟʟᴏ {msg.from_user.mention} 🌲,
 
 🏓ᴛʜɪs ɪs {me} 
-ᴛʜɪꜱ ʙᴏᴛ ᴄᴀɴ ᴄʀᴇᴀᴛᴇ ᴀʟʟ ᴛʏᴘᴇꜱ ᴏꜰ ꜱᴇꜱꜱɪᴏɴꜱ. 
-ʟᴀᴛᴇꜱᴛ ꜱᴇᴄᴜʀɪᴛʏ ᴘᴀᴛᴄʜᴇꜱ ᴀᴘᴘʟɪᴇᴅ ꜰᴏʀ ʏᴏᴜʀ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ.
-ᴛʀʏ ᴛʜɪꜱ ʙᴏᴛ ɴᴏᴡ!!""",
+>ᴛʜɪꜱ ʙᴏᴛ ᴄᴀɴ ᴄʀᴇᴀᴛᴇ ᴀʟʟ ᴛʏᴘᴇꜱ ᴏꜰ ꜱᴇꜱꜱɪᴏɴꜱ. 
+>ʟᴀᴛᴇꜱᴛ ꜱᴇᴄᴜʀɪᴛʏ ᴘᴀᴛᴄʜᴇꜱ ᴀᴘᴘʟɪᴇᴅ ꜰᴏʀ ʏᴏᴜʀ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ.
+>ᴛʀʏ ᴛʜɪꜱ ʙᴏᴛ ɴᴏᴡ!!""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="ɢᴇɴᴇʀᴀᴛᴇ ꜱᴇꜱꜱɪᴏɴ", callback_data="generate")
+                    InlineKeyboardButton(text="𝒢𝑒𝓃𝑒𝓇𝒶𝓉 𝒮𝑒𝓈𝓈𝒾𝑜𝓃", callback_data="generate")
                 ],
                 [
-                    InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/The_Architect04"),
-                    InlineKeyboardButton("ᴄʜᴇɴɴᴀʟ", url="https://t.me/The_Architect04")
+                    InlineKeyboardButton("𝒮𝓊𝓅𝓅𝑜𝓇𝓉", url="https://t.me/The_Architect04"),
+                    InlineKeyboardButton("𝒞𝒽𝑒𝓃𝓃𝒶𝓁", url="https://t.me/The_Architect04")
                 ]
             ]
         ),
