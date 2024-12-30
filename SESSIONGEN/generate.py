@@ -26,7 +26,7 @@ from telethon.errors import (
 from telethon.sessions import StringSession
 
 from data import Data
-from ssnbot import LOGGER
+import config
 
 ask_ques = "ᴘʟᴇᴀꜱᴇ ᴄʜᴏᴏꜱᴇ ᴛʜᴇ ᴘʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ꜰᴏʀ 🤖"
 buttons_ques = [
